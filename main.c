@@ -6,6 +6,6 @@ int main(void)
   int b;
   scanf("%d", &a);
   scanf("%d", &b);
-  printf("%.b.f\n", a);//ここにコードを書く
+  printf("%.bf\n", a);//ここにコードを書く
   return 0;
 }
