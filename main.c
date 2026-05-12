@@ -2,10 +2,10 @@
 
 int main(void)
 {
-  int a;
+  float a;
   int b;
-  scanf("%d", &a);
+  scanf("%f", &a);
   scanf("%d", &b);
-  printf("%.bf\n", a);//ここにコードを書く
+  printf("%.＊f",b, a);//ここにコードを書く
   return 0;
 }
