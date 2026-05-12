@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-  //ここにコードを書く
-
-  
+  float a;
+  int b;
+  scanf("%f", &a);
+  scanf("%d", &b);
+  printf("%.*f",b, a);//ここにコードを書く
   return 0;
 }
